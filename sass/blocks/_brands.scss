@@ -5,7 +5,35 @@
 
 .brands__list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 108px;
+}
+
+.brands__group {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+	.brands {
+		padding-bottom: 0;
+	}
+
+	.brands__group {
+		width: 100%;
+		margin-bottom: 80px;
+	}
+}
+
+@media (max-width: 768px) {
+	.brands__group {
+		width: 45%;
+		height: 350px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
 }

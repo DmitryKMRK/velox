@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 h2 {
-	font-size: 41.6px;
+	font-size: 41px;
 	color: #3a3f4b;
 	text-align: center;
 	text-transform: uppercase;
@@ -31,5 +31,11 @@ h2 {
 		bottom: -26px;
 		left: 50%;
 		margin-left: -74px; 
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 30px;
 	}
 }

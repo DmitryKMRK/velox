@@ -5,6 +5,7 @@
 
 .services__items {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 124px;
 }
@@ -37,5 +38,16 @@
 		line-height: 20px;
 		font-weight: 300;
 		color: #999999;
+	}
+}
+
+@media (max-width: 960px) {
+	.services {
+		padding-bottom: 33px;
+	}
+
+	.services__item {
+		width: 45%;
+		margin-bottom: 50px;
 	}
 }

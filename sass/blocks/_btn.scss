@@ -37,3 +37,15 @@
   	cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 20px;
+
+    &--header {
+      width: 270px;
+      margin-top: 60px;
+      line-height: 52px;
+    }
+  }
+}

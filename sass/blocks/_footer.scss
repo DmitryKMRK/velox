@@ -131,7 +131,7 @@
 	border-radius: 50%;
 	background: #00a5ff url("../img/arrow-up.png") center no-repeat;
 	position: absolute;
-	bottom: -74px;
+	bottom: -104px;
 	left: 50%;
 	margin-left: -34px;
 	transition: 0.4s all;
@@ -183,5 +183,75 @@
 
 	&--li {
 		background: url("../img/li.svg") center no-repeat;
+	}
+}
+
+@media (max-width: 960px) {
+	.footer__top {
+		padding-bottom: 70px;
+
+		.container {
+			flex-direction: column;
+		}
+	}
+
+	.footer__contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.contacts__heading {
+		margin-bottom: 80px;
+		text-align: center;
+		font-size: 38px;
+		text-transform: uppercase;
+	}
+
+	.footer__form-block {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.footer__links {
+		order: 2;
+		justify-content: center;
+		margin-top: 50px;
+	}
+
+	.footer__link {
+		&:first-of-type {
+			margin-left: 0;
+		}
+	}
+
+	.footer__form {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer__inputs {
+		flex-direction: column;
+		margin-bottom: 27px;
+
+		.footer__form-item {
+			width: 100%;
+			margin-bottom: 25px;
+		}
+	}
+
+	.footer__links {
+		flex-direction: column;
+		text-align: center;
+		margin-top: 70px;
+	}
+
+	.footer__link {
+		margin: 0;
+
+		a {
+			font-size: 20px;
+			text-transform: uppercase;
+		}
 	}
 }
