@@ -1,0 +1,41 @@
+.services {
+	padding-top: 30px;
+	padding-bottom: 83px;
+}
+
+.services__items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 124px;
+}
+
+.services__item {
+	width: 22%;
+	text-align: center;
+
+	h3 {
+		font-size: 18px;
+		color: #3a3f4b;
+		text-transform: uppercase;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 42px;
+			height: 1px;
+			background: #888888;
+			left: 50%;
+			margin-left: -21px;
+			bottom: -18px;
+		}
+	}
+
+	p {
+		margin-top: 30px;
+		font-size: 12px;
+		line-height: 20px;
+		font-weight: 300;
+		color: #999999;
+	}
+}

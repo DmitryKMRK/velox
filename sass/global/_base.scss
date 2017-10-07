@@ -1,0 +1,35 @@
+body {
+	font-family: "Open Sans", "Arial", sans-serif;
+}
+
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2 {
+	font-family: "Lora", serif;
+}
+
+h2 {
+	font-size: 41.6px;
+	color: #3a3f4b;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 148px;
+		height: 4px;
+		background: #00a5ff;
+		bottom: -26px;
+		left: 50%;
+		margin-left: -74px; 
+	}
+}
