@@ -16,6 +16,11 @@
 	text-transform: uppercase;
 	color: #999999;
 	position: relative;
+	transition: 0.3s all;
+
+	&:hover {
+		color: #00a5ff;
+	}
 
 	&:first-of-type {
 		margin-left: auto;
@@ -132,6 +137,14 @@
 
 		a {
 			font-size: 22px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.portfolio__card {
+		a {
+			font-size: 20px;
 		}
 	}
 }

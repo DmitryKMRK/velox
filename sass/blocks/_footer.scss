@@ -131,7 +131,7 @@
 	border-radius: 50%;
 	background: #00a5ff url("../img/arrow-up.png") center no-repeat;
 	position: absolute;
-	bottom: -104px;
+	bottom: -74px;
 	left: 50%;
 	margin-left: -34px;
 	transition: 0.4s all;
@@ -227,6 +227,10 @@
 	.footer__form {
 		margin-top: 50px;
 	}
+
+	.footer__up-btn {
+		bottom: -104px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -252,6 +256,54 @@
 		a {
 			font-size: 20px;
 			text-transform: uppercase;
+		}
+	}
+
+	.footer__bottom {
+		.container {
+			flex-direction: column-reverse;
+		}
+
+		.footer__social {
+			margin-top: 60px;
+		}
+
+		.footer__copyright {
+			margin-top: 30px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.contacts__heading {
+		font-size: 28px;
+		margin-bottom: 55px;
+	}
+
+	.footer__contacts {
+
+		h5 {
+			font-size: 20px;
+		}
+
+		p {
+			font-size: 14px;
+			margin-bottom: 40px;
+		}
+	}
+
+	.footer__form {
+		margin-top: 20px;
+
+		label {
+			font-size: 20px;
+		}
+	}
+
+	.footer__link {
+		
+		a {
+			font-size: 16px;
 		}
 	}
 }

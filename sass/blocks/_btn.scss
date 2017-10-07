@@ -38,6 +38,15 @@
   }
 }
 
+@media (max-width: 960px) {
+  .btn {
+    &--form {
+      margin-left: auto;
+      margin-top: 50px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .btn {
     font-size: 20px;
@@ -47,5 +56,16 @@
       margin-top: 60px;
       line-height: 52px;
     }
+
+    &--form {
+      width: 80%;
+      max-width: 270px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 18px;
   }
 }
