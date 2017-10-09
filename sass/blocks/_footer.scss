@@ -186,7 +186,7 @@
 	}
 }
 
-@media (max-width: 960px) {
+@media (min-width: 769px) and (max-width: 960px) {
 	.footer__top {
 		padding-bottom: 70px;
 
@@ -233,7 +233,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
 	.footer__inputs {
 		flex-direction: column;
 		margin-bottom: 27px;

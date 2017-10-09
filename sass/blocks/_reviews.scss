@@ -67,7 +67,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
 	.reviews__slide-content {
 		font-size: 20px;
